@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="24dp"
-            android:text="@string/label_email"
+            android:text="Email"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="24dp"
-            android:text="@string/label_extension"
+            android:text="Extension"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
@@ -63,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="24dp"
-            android:text="@string/label_department"
+            android:text="Department"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
@@ -78,7 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="24dp"
-            android:text="@string/label_supervisor"
+            android:text="Supervisor"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
@@ -93,7 +93,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="32dp"
-            android:text="@string/label_direct_reports"
+            android:text="Direct Reports"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="32sp" />
 

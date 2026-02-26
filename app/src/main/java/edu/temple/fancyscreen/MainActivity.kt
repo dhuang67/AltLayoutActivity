@@ -18,28 +18,28 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<ImageView>(R.id.profile_photo).setImageResource(R.drawable.istockphoto)
 
-        findViewById<TextView>(R.id.name).setText(R.string.name_michelle)
+        findViewById<TextView>(R.id.name).setText("Michelle Townsend")
 
         with(findViewById<TextView>(R.id.email)) {
-            setText(R.string.email_michelle)
+            text = "mt@ourcompany.com"
             setTextColor(Color.BLUE)
         }
 
-        findViewById<TextView>(R.id.extension).setText(R.string.extension_michelle)
+        findViewById<TextView>(R.id.extension).text = "2253"
 
-        findViewById<TextView>(R.id.department).setText(R.string.department_design)
+        findViewById<TextView>(R.id.department).text = "Design"
 
-        findViewById<TextView>(R.id.supervisor).setText(R.string.supervisor_gail)
+        findViewById<TextView>(R.id.supervisor).text = "Gail Davers"
 
         with (findViewById<RecyclerView>(R.id.directReportsRecyclerView)) {
             adapter = RecyclerViewAdapter(
                 arrayOf(
-                    getString(R.string.staff_kate),
-                    getString(R.string.staff_andrew),
-                    getString(R.string.staff_maria),
-                    getString(R.string.staff_brent),
-                    getString(R.string.staff_daniel),
-                    getString(R.string.staff_jorge)
+                    "Kate Sacloff",
+                    "Andrew Klein",
+                    "Maria Ortega",
+                    "Brent Stevenson",
+                    "Daniel Cho",
+                    "Jorge Gomez"
                 )
             )
             layoutManager = LinearLayoutManager(this@MainActivity)
